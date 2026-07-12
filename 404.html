@@ -1,0 +1,38 @@
+<!doctype html><html lang="fr" data-routes="[&quot;/about&quot;,&quot;/skills&quot;,&quot;/cybersecurity&quot;,&quot;/about/:tab&quot;]"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>404 · Portfolio | Sofiane Benziane</title><style>html {
+				background: #220727;
+				color: #eee5ef;
+				font-family: sans-serif;
+				line-height: 1.6;
+			}
+			body {
+				max-width: 40rem;
+				margin: 10vh auto;
+				padding: 1.5rem;
+			}
+			html.redirecting body {
+				display: none;
+			}
+			a {
+				color: #edc1ef;
+			}
+			a:focus-visible {
+				outline: 2px solid currentColor;
+				outline-offset: 4px;
+			}</style><script>const patterns = JSON.parse(document.documentElement.dataset.routes);
+			const path = window.location.pathname.replace(/\/+$/, "") || "/";
+			const segments = path.split("/");
+			const isKnownRoute = patterns.some((pattern) => {
+				const parts = pattern.split("/");
+				return (
+					parts.length === segments.length &&
+					parts.every((part, index) =>
+						part.startsWith(":") ? segments[index].length > 0 : part === segments[index]
+					)
+				);
+			});
+			if (isKnownRoute) {
+				document.documentElement.classList.add("redirecting");
+				window.location.replace(
+					"/#!" + path + window.location.search + window.location.hash
+				);
+			}</script></head><body><main><h1>404</h1><p>Cette page est introuvable. <a href="/">Revenir au portfolio</a>.</p><p lang="en">This page could not be found. <a href="/">Return to the portfolio</a>.</p></main></body></html>
