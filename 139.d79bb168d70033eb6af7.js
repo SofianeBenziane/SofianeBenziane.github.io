@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[139],{139(e,s,l){l.r(s),l.d(s,{default:()=>t});var n=l(978),u=l.n(n);class r{view(){return u()("div",null,"Projects Text Component")}}class t{view(){return u()(r,null)}}}}]);
