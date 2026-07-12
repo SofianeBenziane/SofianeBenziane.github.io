@@ -1,0 +1,21 @@
+{
+  "name": "Sofiane Benziane",
+  "short_name": "Sofiane Benziane",
+  "icons": [
+    {
+      "src": "/assets/images/favicon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/images/favicon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#5e1298",
+  "background_color": "#5e1298",
+  "display": "standalone"
+}

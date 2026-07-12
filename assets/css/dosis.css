@@ -1,0 +1,18 @@
+
+@font-face {
+	font-display: swap;
+	font-family: 'Dosis';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Dosis'),
+		 url('../fonts/dosis/dosis-latin-300.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Dosis';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Dosis'),
+		 url('../fonts/dosis/dosis-latin-regular.woff2') format('woff2');
+}
